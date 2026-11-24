@@ -1,0 +1,12 @@
+openapi: 3.0.3
+info:
+  title: EWBI API
+  version: 0.1.0
+  description: Draft specification; replace the placeholder operation with the agreed API.
+paths:
+  /healthz:
+    get:
+      operationId: getHealth
+      responses:
+        '200':
+          description: Service is healthy.
